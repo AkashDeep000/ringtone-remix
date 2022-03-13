@@ -15,7 +15,7 @@ export async function loader() {
 export function headers({ loaderHeaders, parentHeaders }) {
   return {
     "server": "akash",
-    "Cache-Control": "stale-while-revalidate=30, stale-if-error=60",
+    "Cache-Control": "max-age=1, stale-while-revalidate=30",
   };
 }
 
