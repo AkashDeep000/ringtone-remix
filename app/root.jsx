@@ -18,9 +18,10 @@ export function meta() {
 export function links() {
   return [{
     rel: "stylesheet",
-    href: styles
+    href: styles,
   }]
 }
+
 
 export default function App() {
   return (
